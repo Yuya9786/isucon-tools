@@ -6,7 +6,7 @@ unzip alp_linux_amd64.zip
 # パスの通っているディレクトリに移動
 sudo mv alp /usr/local/bin/alp
 
-alp --version && echo "Success Install alp"
+alp --version && echo "alp intallation succeeded"
 
 sudo touch /etc/nginx/conf.d/log_format.conf
 sudo chmod 777 /etc/nginx/conf.d/log_format.conf
